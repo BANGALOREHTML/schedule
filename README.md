@@ -16,7 +16,7 @@ The user can enter events into the text area and click the save button to save t
 ### Screenshot of working application and link to deployed application
 [Screenshot of Deployed Application](./assets/deployed-application.png)
 
-Deployed Website Link [Click Here!]()
+Deployed Website Link [Click Here!](https://bangalorehtml.github.io/schedule/)
 
 ### Credits
 Created by Dez Duran
