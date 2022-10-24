@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
   line-height: 1;
 }
@@ -71,3 +71,71 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+.time {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+
+}
+.time1 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top:none;
+}
+
+.time2 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top: none;
+}
+
+.time3 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top: none;
+}
+
+.time4 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top: none;
+}
+.time5 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top: none;
+}
+
+.time6 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top: none;
+}
+.time7 {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #dfd5d5;
+  color: #000000;
+  border-top: none;
+}
+.time8{
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #d1cbcb;
+  color: #000000;
+  border-top: none;
+
+}
