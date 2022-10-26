@@ -71,71 +71,30 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.time {
+/* //havent decided yet on the name to use? */
+.container {
   border: 1px solid black;
   border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
-  color: #000000;
-
-}
-.time1 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
-  color: #000000;
-  border-top:none;
-}
-
-.time2 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
+  background-color: #b2baae;
   color: #000000;
   border-top: none;
+  padding:25px
+}
+/* havent decided yet  on the name to use */
+.hour {
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #b2baae;
+  color: #000000;
+  border-top: none;
+  padding:25px
 }
 
-.time3 {
+.hour10 {
   border: 1px solid black;
   border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
+  background-color: #b2baae;
   color: #000000;
   border-top: none;
-}
-
-.time4 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
-  color: #000000;
-  border-top: none;
-}
-.time5 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
-  color: #000000;
-  border-top: none;
-}
-
-.time6 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
-  color: #000000;
-  border-top: none;
-}
-.time7 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #dfd5d5;
-  color: #000000;
-  border-top: none;
-}
-.time8 {
-  border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
-  background-color: #d1cbcb;
-  color: #000000;
-  border-top: none;
-
+  padding:25px
 }
