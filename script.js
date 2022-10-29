@@ -1,4 +1,3 @@
-let description = $("#description");
 let currentDay = $("#currentDay");
 
 function currentTime() {
@@ -7,21 +6,20 @@ function currentTime() {
     // console.log(day)
 }
 
-setInterval(currentTime, 1000);
-function updatePPFColor() {
-    let currentHour = moment().format("H");
-    for (let i = 09; i <= 12; i++) {
-        if (i < currentHour) {
-            $("#" + i).addClass("past");
-        } else if (i == currentHour) {
-            $("#" + i).addClass("present");
-        } else if (i > currentHour) {
-            $("#" + i).addClass("future");
-        }
+function updateColor() {
+  let currentHour = moment().format("H");
+  for (let i = 09; i <= 17; i++) {
+    if (i < currentHour) {
+      $("#" + i).addClass("past");
+    } else if (i == currentHour) {
+      $("#" + i).addClass("present");
+    } else if (i > currentHour) {
+      $("#" + i).addClass("future");
     }
+  }
 }
 
-// updatePPFColor();
+updateColor();
 
 $(".saveBtn").click(function () {
     let timeIndex = $(this).parent().attr("id");
@@ -31,7 +29,7 @@ $(".saveBtn").click(function () {
     console.log(timeIndex, daySchedule);
 });
 function getStoredSchedule() {
-    for (let i = 9; i <= 12; i++) {
+    for (let i = 9; i <= 17; i++) {
         let storedSchedule = localStorage.getItem(i);
         $("#" + i)
             .find("textarea")
