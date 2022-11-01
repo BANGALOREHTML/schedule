@@ -14,7 +14,7 @@ I made this to practice using jQuery and moment.js to create a simple calendar a
 #### How does it work?
 The user can enter events into the text area and click the save button to save the event to local storage. The events will persist even after the page is refreshed. The time blocks are color coded to indicate whether the time block is in the past, present, or future.
 ### Screenshot of working application and link to deployed application
-[Screenshot of Deployed Application](./assets/deployed-application.png)
+[Screenshot of Deployed Application](./scedule.png)
 
 Deployed Website Link [Click Here!](https://bangalorehtml.github.io/schedule/)
 
