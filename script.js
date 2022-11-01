@@ -1,5 +1,7 @@
+// VARIABLES
 let currentDay = $("#currentDay");
 
+// FUNCTIONS
 function currentTime() {
     let day = moment().format("MMM Do YYYY, HH:mm:ss");
     currentDay.text(day);
@@ -18,7 +20,7 @@ function updateColor() {
     }
   }
 }
-
+// COLOR CHANGES BASED ON TIME
 updateColor();
 
 $(".saveBtn").click(function () {
@@ -28,6 +30,8 @@ $(".saveBtn").click(function () {
 
     console.log(timeIndex, daySchedule);
 });
+
+// MORE FUNCTIONS
 function getStoredSchedule() {
     for (let i = 9; i <= 17; i++) {
         let storedSchedule = localStorage.getItem(i);
